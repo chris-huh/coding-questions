@@ -2,20 +2,21 @@
 
 ## Python Data Structures
 
-Hash Map
+**Hash Map / Hash Table**
 dict
+collections.defaultdict - subclass of _dict_ providing a default value when key is missing
 
-Set
+**Set**
 
-Stack
+**Stack**
 list - using append() and pop()
 collections.deque - using append() and pop()
 
-Queue
+**Queue**
 list - using append() and pop(0) _slow_
 collections.deque - using append() and popleft()
 
-Heap
+**Heap**
 heapq - using heappush() and heappop()
 queue.PriorityQueue - using put() and get() _thread-safe_
 
